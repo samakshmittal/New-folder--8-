@@ -21,7 +21,7 @@ int main()
     {
         c=x*y;
     }
-    else if (a=='/')
+    else if (a=='z')
     {
         c=x/y;
     }
