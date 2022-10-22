@@ -7,8 +7,8 @@ int main(){
     return 0;
 }
 void hello(){
-    printf("Hello");
+    printf("Hello\n");
 }
 void goodbye(){
-    printf("good bye");
+    printf("good bye\n");
 }
