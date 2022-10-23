@@ -13,12 +13,12 @@ int main(){
     float side, radius, a, b;
     printf("Enter side of square");
     scanf("%f", &side);
-    printf("%f", square(side));
+    printf("%f\n", square(side));
     printf("Enter radius of circle");
     scanf("%f", &radius);
-    printf("%f", circle(radius));
+    printf("%f\n", circle(radius));
     printf("Enter length and breadth of rectangle");
     scanf("%f%f", &a, &b);
-    printf("%f", rectangle(a, b));
+    printf("%f\n", rectangle(a, b));
     return 0;
 }
