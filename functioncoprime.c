@@ -7,10 +7,11 @@ void coprime(int n){
         og/=10;
         x=x*10+r;
     }
-    for(int i=2; i<=n/2; i++){
+    for(int i=2; i<=n; i++){
         if(n%i==0){
             if(x%i==0){
                 z=1;
+                break;
             }
         }
     }
