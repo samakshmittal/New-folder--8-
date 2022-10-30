@@ -16,10 +16,10 @@ void coprime(int n){
         }
     }
     if (z==1){
-        printf("%d and %d are not coprime", n, x);
+        printf("%d and %d are not coprime numbers", n, x);
     }
     else if (z==0){
-        printf("%d and %d are coprime", n, x);
+        printf("%d and %d are coprime numbers", n, x);
     }
 }
 int main(){
