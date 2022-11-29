@@ -35,14 +35,14 @@ int main()
         printf("Enter date of joining of student %d (in dd):", (i+1)); 
         scanf("%d",&s[i].c.day); 
         printf("Enter month of joining of student %d (in mm) : ", (i+1));
-        scanf("%d",&s[1].c.month);
+        scanf("%d",&s[i].c.month);
         printf("Enter year of joining of student %d (in yyyy) ",(i+1)); 
-        scanf("%d",&s[1].c.year);
+        scanf("%d",&s[i].c.year);
         printf("\n");
         }
     for(int j=0;j<n;j++)
     {
         printf("%d \t%s \t%d \t%d \t%s \t%s \t%d/%d/%d\n", (j+1),s[j].name,s[j].sapid, s[j].rollno, s[j].dr, s[j].db, s[j].c.day, s[j].c.month,s[j].c.year);
-    }
+        }
     return 0;
 }
